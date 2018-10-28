@@ -1,6 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 7em);
 }
 
 a {
@@ -57,12 +58,12 @@ li {
 
 header {
   grid-column: 2/7;
+  grid-row: 2/3;
   display: flex;
   justify-content: space-between;
 }
 
 .header-info {
-  margin-top: -240px;
   margin-left: 50px;
 }
 
@@ -80,9 +81,8 @@ header {
 }
 
 .header-buttons {
-  margin-top: -178px;
-  margin-right: 40px;
-  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
 }
 
 .oval-large {
@@ -134,7 +134,7 @@ header {
 .sidebar {
   background-color: #354052;
   grid-column: 1/2;
-  grid-row: 1/5;
+  grid-row: 1/12;
 }
 
 .sidebar-head {
@@ -179,8 +179,6 @@ header {
 }
 
 /* svg */
-
-
 
 .circular-chart {
   display: block;
