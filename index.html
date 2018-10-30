@@ -14,10 +14,12 @@
 
   <nav>
 
+  <div class="nav-item-1">
    <ul class=nav-list-left>
     <li><i class='fas fa-caret-left'></i></li>
     <li><i class="fas fa-bars"></i></li>
   </ul>
+</div>
 
   <form class="search-form">
     <button class="search-button">
@@ -27,10 +29,20 @@
  </form>
 
  <ul class="nav-list-right">
+  
+  <div class="nav-item-2">
   <li><i class="far fa-user-circle"></i></li>
+  </div>
+
+  <div class="nav-item-3">
   <li><i class="far fa-calendar-plus"></i></li>
+  </div>
+
+  <div class="nav-item-4">
   <li><i class="fas fa-th"></i></li>
-</ul>
+  </div>
+  
+  </ul>
 
 
 </nav>
@@ -39,12 +51,13 @@
 <header>
   <div class="header-info">
    <h1 class="header-title">Customer Service Representative</h1>
-   <p class="header-subtitle-1"><i class="fas fa-map-marker-alt"></i> San Francisco, CA  • </p>
+   <p class="header-subtitle-1"><i class="fas fa-map-marker-alt"></i> San Francisco, CA </p>
+   <p class="header-subtitle-1 bullet-point">•</p>
    <a href="" class="header-subtitle-2"> Preview this post</a>
  </div>
 
  <div class="header-buttons">
-  <button class="oval-large"><i class="fas fa-circle"></i> Open</button>
+  <button class="oval-large open-button"><i class="fas fa-circle"></i> Open</button>
   <button class="oval-small"><i class="fas fa-flag"></i></button>
   <button class="oval-small"><i class="fas fa-pencil-alt"></i></button>
   <button class="oval-small"><i class="fas fa-trash-alt"></i></button>
@@ -65,44 +78,44 @@
 
 <section class="sidebar">
   <div class="sidebar-head">
-    <img class="profile-pic" src="images/profile-pic.jpg">
-    <p class="profile-name">Sami Piper <i class="fas fa-caret-down"></i></p>
+    <img class="profile-pic" src="images/headshot.jpg">
+    <p class="profile-name">Drake Graham <i class="fas fa-caret-down"></i></p>
   </div>
   <div class="sidebar-border">
   </div>
   <ul class="sidebar-list">
     <li><h4 class="sidebar-subcategory">Main</h4></li>
-    <li><p class="sidebar-item"><i class="fas fa-home"></i> Home</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-suitcase"></i> Jobs</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-file"></i> Resumes</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-clipboard"></i> Tasks</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-calendar-alt"></i> Calendar</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-home sidebar-icon"></i> HOME</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-suitcase sidebar-icon"></i> JOBS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-file sidebar-icon"></i> RESUMES</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-clipboard sidebar-icon"></i> TASKS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-calendar-alt sidebar-icon"></i> CALENDAR</p></li>
   </ul>
   <div class="sidebar-border">
   </div>
   <ul class="sidebar-list">
     <li><h4 class="sidebar-subcategory">Admin</h4></li>
-    <li><p class="sidebar-item"><i class="fas fa-users"></i> Users</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-map-marker-alt"></i> Locations</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-project-diagram"></i> Workflows</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-newspaper"></i> Job Boards</p></li>
-    <li><p class="sidebar-item"><i class="fas fa-share-square"></i> Social</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-users sidebar-icon"></i> USERS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-map-marker-alt sidebar-icon"></i> LOCATIONS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-project-diagram sidebar-icon"></i> WORKFLOWS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-newspaper sidebar-icon"></i> JOB BOARDS</p></li>
+    <li><p class="sidebar-item"><i class="fas fa-share-square sidebar-icon"></i> SOCIAL</p></li>
   </ul>
   <div class="sidebar-border">
   </div>
   <ul class="sidebar-list">
     <li><h4 class="sidebar-subcategory">Categories</h4></li>
-    <li><p class="sidebar-item"><i class="far fa-check-square"></i> Administrative</p></li>
-    <li><p class="sidebar-item"><i class="far fa-square square-blue"></i> Design</p></li>
-    <li><p class="sidebar-item"><i class="far fa-square square-red"></i> Executive</p></li>
-    <li><p class="sidebar-item"><i class="far fa-square square-green"></i> Human Resources</p></li>
+    <li><p class="sidebar-item"><i class="far fa-check-square sidebar-icon"></i> Administrative</p></li>
+    <li><p class="sidebar-item"><i class="far fa-square square-blue sidebar-icon"></i> Design</p></li>
+    <li><p class="sidebar-item"><i class="far fa-square square-red sidebar-icon"></i> Executive</p></li>
+    <li><p class="sidebar-item"><i class="far fa-square square-green sidebar-icon"></i> Human Resources</p></li>
   </ul>
 </section>
 
 
 <section class="data-area">
 
-  <div class="test">
+  <div class="data-div">
     <svg viewBox="0 0 45 45" class="circular-chart">
       <path class="circle chart1"
       stroke-dasharray="60, 100"
@@ -110,8 +123,8 @@
       a 15.9155 15.9155 0 0 1 0 31.831
       a 15.9155 15.9155 0 0 1 0 -31.831"
       />
-<!--   <text x="6" y="20" class="svg-text">3,154</text>
-  <text x="10" y="24" class="svg-text">APPLICANTS</text> -->
+  <text x="18" y="16" class="graph-num">3,154</text>
+  <text x="18" y="24" class="graph-word">APPLICANTS</text>
 </svg>
 
 <svg viewBox="0 0 45 45" class="circular-chart">
@@ -121,6 +134,8 @@
   a 15.9155 15.9155 0 0 1 0 31.831
   a 15.9155 15.9155 0 0 1 0 -31.831"
   />
+  <text x="18" y="16" class="graph-num">1,546</text>
+  <text x="18" y="24" class="graph-word">INTERVIEWS</text>
 </svg>
 
 <svg viewBox="0 0 45 45" class="circular-chart">
@@ -130,6 +145,8 @@
   a 15.9155 15.9155 0 0 1 0 31.831
   a 15.9155 15.9155 0 0 1 0 -31.831"
   />
+  <text x="18" y="16" class="graph-num">912</text>
+  <text x="18" y="24" class="graph-word">FORWARDS</text>
 </svg>
 <img src="images/placeholder.png" class="placeholder-image">
 </div>
@@ -156,7 +173,7 @@
   <table border = "0" width = "100%">
     <thead>
       <tr>
-        <td colspan = "2" class="table-head">JOB DESCRIPTION <button class="edit-button"><i class="far fa-edit"></i>Edit</button></td>
+        <td colspan = "2" class="table-head">JOB DESCRIPTION <button class="edit-button"><i class="far fa-edit"></i> Edit</button></td>
 
       </tr>
     </thead>
@@ -176,7 +193,7 @@
       <tr>
       <td class="table-subtitle">EXPERIENCE</td><td class="table-text">Mid-level</td>
     </tr>
-
+  
       <tr>
       <td class="table-subtitle">STATUS</td><td class="table-text">Open</td>
     </tr>
@@ -186,7 +203,7 @@
     </tr>
 
       <tr>
-      <td class="table-subtitle">HIRING LEAD</td><td class="table-text">Tom Tizzy</td>
+      <td class="table-subtitle">HIRING LEAD</td><td class="table-text"><img class="headshot-small" src="images/headshot-small.jpg"><p class="center-row">Rae Sremmurd</p></td>
     </tr>
 
       <tr>
@@ -196,9 +213,6 @@
   </table>
 
 </section>
-
-
-
 
 <aside>
 
