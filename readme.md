@@ -1,14 +1,23 @@
-# Static Comp 2
-## Shannon Moranetz
+# Static Composition 2
 
-This page was created using several layout techniques, combining all CSS and HTML knowledge learned in Mod 1. The greater page layout was structured using grid, and individual elements within swere styled using flexbox as needed. Several breakpoints were added in order to create a responsive layout throughout the page. 
+## CSS complex layout challenge
 
-### Original Comp
+* * *
 
-![Original Comp](/images/screen1.jpg "Original Comp")
+### HTML & CSS positioning exercise using flexbox, grid, and other CSS3 features.
 
-### Page Created 
+![Screenshot](https://i.imgur.com/ih7e1RM.png)
+![Screenshot](https://i.imgur.com/7Ax7Gc9.png)
 
-![Page Created](/images/screen2.png "Page Created")
-![Page Created 2](/images/screen3.png "Page Created (2)")
+### Features
 
+*   Static composition
+
+### Tech Stack
+
+*   HTML
+*   CSS3
+
+### Contributors
+
+* [Shannon Moranetz](https://github.com/shannonmoranetz)
